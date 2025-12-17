@@ -1,0 +1,37 @@
+.notes-wrapper{
+    height: 100%;
+    overflow-y: auto;
+}
+
+.note-card{
+    background-color: rgba(rgb(226, 192, 192), 0.5);
+    color: rgba( #ece8e8, 0.8);
+
+    padding: 15px;
+    border-radius: 2px;
+
+    cursor:pointer;
+
+    transform: 0.1s;
+
+    &:hover{
+        background-color: rgba(rgb(207, 177, 213),0.68);
+        backdrop-filter: blur(2px);
+    }
+
+}
+.note-card-title{
+    font-style: italic;
+    font-weight:650;
+    font-size: 20px;
+}
+
+.note-card-content{
+    margin-top: 7px;
+}
+
+.add-btn i{
+    margin-right: 0px;
+    margin-left: -5px;
+    font-size: 15px;
+}
